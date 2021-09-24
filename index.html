@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/5969beb443.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>JafferyTech</title>
+  </head>
+  <body>
+    <!-- pageloader start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- pageloader ends -->
+
+    <!--background circles start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!--background circles end-->
+    <!-- overlay Start -->
+    <div class="overlay"></div>
+    <!-- overlay end -->
+
+    <!--Main Section Start-->
+    <div class="main hidden">
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Let's Talk</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+      <!--Home Start-->
+      <section class="home-section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-text">
+              <p>Hello, I am</p>
+              <h1>Sarfaraz Jaffery</h1>
+              <h2>Juinor full stack web developer</h2>
+              <a href="#about" class="btn link-item">get familiar</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <img
+                src="./images/profile-img.png"
+                alt="profile-photo"
+                class="img-box"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Home End-->
+      <!--About Start-->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>get familiar with me</h2>
+            </div>
+            <div class="row">
+              <div class="about-img">
+                <div class="img-box">
+                  <img src="images/profile-img.png" alt="profile-img" />
+                </div>
+              </div>
+              <div class="about-text">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                  magnam molestias impedit, alias assumenda obcaecati. Beatae
+                  vitae quidem, molestiae dolorum delectus eligendi sunt, ut eum
+                  veniam dolorem labore! Quos rem odit voluptas repellendus ea,
+                  quam, maiores soluta voluptatibus laboriosam odio nihil a.
+                  Temporibus aliquid pariatur odit deleniti, repellendus laborum
+                  in?
+                </p>
+                <h3>Skills</h3>
+                <div class="skills">
+                  <div class="skill-item">html</div>
+                  <div class="skill-item">css</div>
+                  <div class="skill-item">javascript</div>
+                  <div class="skill-item">express</div>
+                  <div class="skill-item">mogodb</div>
+                  <div class="skill-item">bootstrap</div>
+                  <div class="skill-item">wordpress</div>
+                  <div class="skill-item">react</div>
+                  <div class="skill-item">jQuery</div>
+                </div>
+
+                <div class="about-tabs">
+                  <button class="tab-item active" data-target="#education">
+                    education
+                  </button>
+                  <button class="tab-item" data-target="#experience">
+                    experience
+                  </button>
+                </div>
+
+                <!--education section-->
+                <div class="tab-content active" id="education">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>
+                        Bachelor of Computer Science -
+                        <span>PIMSAT Karachi</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Numquam, at!
+                      </p>
+                    </div>
+
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>
+                        Bachelor of Computer Science -
+                        <span>PIMSAT Karachi</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Numquam, at!
+                      </p>
+                    </div>
+
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>
+                        Bachelor of Computer Science -
+                        <span>PIMSAT Karachi</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Numquam, at!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--education end-->
+
+                <!-- experience Start-- -->
+                <div class="tab-content" id="experience">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>web developer <span>The ABC company</span></h4>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Commodi natus nesciunt quibusdam odio quaerat
+                        repellendus?
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>web developer <span>The ABC company</span></h4>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Commodi natus nesciunt quibusdam odio quaerat
+                        repellendus?
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2013 - 2016</span>
+                      <h4>web developer <span>The ABC company</span></h4>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Commodi natus nesciunt quibusdam odio quaerat
+                        repellendus?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- end -->
+                <a href="./assets/resume.pdf" target="_blank" class="btn"
+                  >download Resume</a
+                >
+                <a href="#contact" class="btn link-item">let's talk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About End-->
+      <section class="portfoio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>My Work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--Portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/2.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">
+                Mac OS look alike staitc website
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/oslook/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/3.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Background Generator</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>
+                      Technologies used - <span>HTML, CSS, Vanilla JS</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/backgroundGenerator/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/4.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Rock Paper Scissor</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/rps/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/5.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">JS Drums</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS, JS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/jsDrums/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/6.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">frontend Mentor challenge</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/fronendMentor/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/portfolio/7.png" alt="portfolio thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Stop Watch</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis ipsa eius laboriosam ex corrupti aliquam fuga! Fuga
+                    obcaecati quaerat nemo laborum voluptates, necessitatibus
+                    doloremque placeat? Fugiat, illum exercitationem placeat
+                    voluptatum modi quos, eius at et explicabo, consequuntur
+                    quidem tempore quibusdam?
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Live view -
+                      <span
+                        ><a href="#"
+                          >www.jafferytech.com/stopwatch/index.html</a
+                        ></span
+                      >
+                    </li>
+                    <li>Code repository - <span>Github</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--Portfolio End-->
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Let's Talk</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form action="#" method="POST">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="input-control"
+                      placeholder="Email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="input-control"
+                      placeholder="Subject"
+                      name="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      name="body"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p><a href="mailto:#">jaffery@jafferytech.com</a></p>
+              </div>
+              <!-- <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p><a href="tel:+4915783238433">+49-1578-3238-433</a></p>
+              </div> -->
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section end -->
+    </div>
+    <!--Main Section End-->
+
+    <!-- portfolio item details popup start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="images/portfolio/6.png" alt="pp thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title"></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio item details popup end -->
+
+    <!-- adding script here -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
