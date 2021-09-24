@@ -28,6 +28,7 @@
   --whiteLight40: rgba(255, 255, 255, 0.4);
   --whiteLight25: rgba(255, 255, 255, 0.25);
   --backdropFilterBlur: blur(5px);
+  -webkit-backdrop-filter: var(--backdropFilterBlur);
 }
 
 body {
@@ -93,6 +94,7 @@ section {
   min-height: calc(100vh - 70px);
   border-radius: 30px;
   backdrop-filter: var(--backdropFilterBlur);
+  -webkit-backdrop-filter: var(--backdropFilterBlur);
   display: none;
 }
 
@@ -251,6 +253,7 @@ section.fade-out {
   z-index: 999;
   background-color: var(--whiteLight25);
   backdrop-filter: var(--backdropFilterBlur);
+  -webkit-backdrop-filter: var(--backdropFilterBlur);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,6 +403,7 @@ section.fade-out {
   background-color: var(--whiteLight25);
   border: 1px solid var(--whiteLight40);
   backdrop-filter: var(--backdropFilterBlur);
+  -webkit-backdrop-filter: var(--backdropFilterBlur);
   padding: 50px 0;
   border-radius: 10px;
   display: flex;
@@ -815,6 +819,7 @@ button {
   width: 100%;
   border: 1px solid var(--whiteLight40);
   backdrop-filter: var(--backdropFilterBlur);
+  -webkit-backdrop-filter: var(--backdropFilterBlur);
   opacity: 0;
   transform: scale(0.9);
 }
