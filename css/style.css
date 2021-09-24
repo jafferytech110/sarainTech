@@ -16,14 +16,14 @@
 /* variables for css */
 :root {
   /* --mainColor: #e02f6b; */
-  --mainColor: #4863A0;
+  --mainColor: #4863a0;
   --leftTopCircle: #ffff00;
-  --textColor: #2C3539;
+  --textColor: #2c3539;
   --leftCenterCircle: #ff00bf;
   --greenleftCenterCircle: #040495;
   /* --leftBackground: #efa2b4; */
-  --leftBackground: #4CC552;
-  --righttBackground: #00FFFF;
+  --leftBackground: #4cc552;
+  --righttBackground: #00ffff;
   --white: #fff;
   --whiteLight40: rgba(255, 255, 255, 0.4);
   --whiteLight25: rgba(255, 255, 255, 0.25);
@@ -482,11 +482,11 @@ section.fade-out {
 }
 
 .about-img .img-box {
-  background-color: var(--whiteLight25);
+  /* background-color: var(--whiteLight25); */
   max-width: 380px;
-  border: 1px solid var(--whiteLight40);
+  /* border: 1px solid var(--whiteLight40); */
   margin: auto;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 .about-img .img-box img {
   width: 100%;
@@ -690,15 +690,15 @@ ul {
 
 .home-img .img-box {
   max-width: 360px;
-  background-color: var(--whiteLight25);
-  border-radius: 50%;
-  border: 8px solid var(--whiteLight25);
+  /* background-color: var(--whiteLight25); */
+  /* border-radius: 50%; */
+  /* border: 8px solid var(--whiteLight25); */
   margin: auto;
 }
 
 .home-img .img-box img {
   width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 /*buttons*/
