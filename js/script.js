@@ -111,3 +111,14 @@ document.addEventListener("click", (e) => {
     }, 500);
   }
 });
+
+//theme button toggler
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("light")) {
+    document.querySelector(".light").classList.add("dark");
+    document.querySelector(".light").classList.remove("light");
+  } else if (e.target.classList.contains("dark")) {
+    document.querySelector(".dark").classList.add("light");
+    document.querySelector(".dark").classList.remove("dark");
+  }
+});
