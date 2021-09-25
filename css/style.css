@@ -486,11 +486,11 @@ section.fade-out {
 }
 
 .about-img .img-box {
-  /* background-color: var(--whiteLight25); */
+  background-color: var(--whiteLight25);
   max-width: 380px;
-  /* border: 1px solid var(--whiteLight40); */
+  border: 1px solid var(--whiteLight40);
   margin: auto;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 .about-img .img-box img {
   width: 100%;
@@ -500,6 +500,36 @@ section.fade-out {
   text-transform: capitalize;
   font-size: 20px;
   margin: 20px 0;
+}
+
+#blockquote {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: inherit;
+  line-height: 1.5;
+  position: relative;
+}
+
+#blockquote::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 55px;
+  background-color: var(--whiteLight40);
+  left: -5px;
+  opacity: 0.5;
+}
+
+#blockquote::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 55px;
+  background-color: var(--mainColor);
+  right: 25px;
+  top: 12px;
+  opacity: 0.5;
 }
 
 .about-text .skills {
@@ -676,6 +706,14 @@ ul {
   font-size: 18px;
 }
 
+.home-text p.intro {
+  margin-top: none;
+  padding: none;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+
 .home-text h1 {
   font-size: 50px;
   text-transform: capitalize;
@@ -685,7 +723,7 @@ ul {
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 300;
-  margin: 0 0 30px;
+  margin: 0 0 10px;
 }
 
 .home-text .btn {
@@ -694,15 +732,15 @@ ul {
 
 .home-img .img-box {
   max-width: 360px;
-  /* background-color: var(--whiteLight25); */
-  /* border-radius: 50%; */
-  /* border: 8px solid var(--whiteLight25); */
+  background-color: var(--whiteLight25);
+  border-radius: 50%;
+  border: 8px solid var(--whiteLight25);
   margin: auto;
 }
 
 .home-img .img-box img {
   width: 100%;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 
 /*buttons*/
@@ -773,6 +811,13 @@ button {
 .portfolio-item-thumbnail img {
   width: 100%;
   border-radius: 10px;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item-thumbnail img:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .portfolio-item h3 {
@@ -958,6 +1003,24 @@ button {
 }
 /* end */
 
+/* footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+#footer p a {
+  color: var(--mainColor);
+}
+
+/* end */
 /* responsive design css */
 @media screen and (max-width: 1195px) {
   .portfolio-item {
