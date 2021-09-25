@@ -145,9 +145,11 @@ document.addEventListener("click", (e) => {
     document.querySelector(".light").classList.add("dark");
     document.querySelector(".light").classList.remove("light");
     forDark();
+    document.querySelector("#theme-text").innerHTML = "Light Theme";
   } else if (e.target.classList.contains("dark")) {
     document.querySelector(".dark").classList.add("light");
     document.querySelector(".dark").classList.remove("dark");
     forLight();
+    document.querySelector("#theme-text").innerHTML = "Dark Theme";
   }
 });
