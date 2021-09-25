@@ -122,3 +122,43 @@ document.addEventListener("click", (e) => {
     document.querySelector(".dark").classList.remove("dark");
   }
 });
+
+//setting variables for dark theme
+
+let rootVariables = document.querySelector(":root");
+let rootVAariablesValues = getComputedStyle(rootVariables);
+
+function forDark() {
+  rootVariables.style.setProperty("--mainColor", "#1fe8b7");
+  rootVariables.style.setProperty("--leftTopCircle", "#ff4dff");
+  rootVariables.style.setProperty("--textColor", "#fff");
+  rootVariables.style.setProperty("--leftCenterCircle", "#1a1aff");
+  rootVariables.style.setProperty("--leftBackground", "#003333");
+  rootVariables.style.setProperty("--righttBackground", "#000000");
+  rootVariables.style.setProperty("--white", "#fff");
+  rootVariables.style.setProperty("--greenleftCenterCircle", "#000000");
+}
+
+function forLight() {
+  rootVariables.style.setProperty("--mainColor", "#4863a0");
+  rootVariables.style.setProperty("--leftTopCircle", "#ffff00");
+  rootVariables.style.setProperty("--textColor", "#2c3539");
+  rootVariables.style.setProperty("--leftCenterCircle", "#ff00bf");
+  rootVariables.style.setProperty("--leftBackground", "#4cc552");
+  rootVariables.style.setProperty("--righttBackground", "#00ffff");
+  rootVariables.style.setProperty("--white", "#fff");
+  rootVariables.style.setProperty("--greenleftCenterCircle", "#040495");
+}
+
+//theme button toggler
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("light")) {
+    document.querySelector(".light").classList.add("dark");
+    document.querySelector(".light").classList.remove("light");
+    forDark();
+  } else if (e.target.classList.contains("dark")) {
+    document.querySelector(".dark").classList.add("light");
+    document.querySelector(".dark").classList.remove("dark");
+    forLight();
+  }
+});
