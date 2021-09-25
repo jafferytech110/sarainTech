@@ -521,17 +521,6 @@ section.fade-out {
   opacity: 0.5;
 }
 
-#blockquote::after {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 55px;
-  background-color: var(--mainColor);
-  right: 25px;
-  top: 12px;
-  opacity: 0.5;
-}
-
 .about-text .skills {
   display: flex;
   flex-wrap: wrap;
