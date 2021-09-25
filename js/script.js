@@ -112,17 +112,6 @@ document.addEventListener("click", (e) => {
   }
 });
 
-//theme button toggler
-document.addEventListener("click", (e) => {
-  if (e.target.classList.contains("light")) {
-    document.querySelector(".light").classList.add("dark");
-    document.querySelector(".light").classList.remove("light");
-  } else if (e.target.classList.contains("dark")) {
-    document.querySelector(".dark").classList.add("light");
-    document.querySelector(".dark").classList.remove("dark");
-  }
-});
-
 //setting variables for dark theme
 
 let rootVariables = document.querySelector(":root");
